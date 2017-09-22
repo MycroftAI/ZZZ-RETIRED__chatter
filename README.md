@@ -1,6 +1,10 @@
 # chatter
 A Mycroft AI chatbot solution framework, currently under development.  Will use Mycroft AI docker image as the base for running it.
 
+Currently the goal is for this to use mycroft skills for its responses and [Errbot](https://errbot.io) for the backend and connection to chat applications.
+
+A demo version of this bot can be seen in the Mattermost community for MycroftAI at https://chat.mycroft.ai and the name of the bot is @mycrofthelper
+
 Still a work in progress
 
 ## Installation
