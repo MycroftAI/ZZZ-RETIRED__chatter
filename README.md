@@ -7,6 +7,9 @@ A demo version of this bot can be seen in the Mattermost community for MycroftAI
 
 Still a work in progress
 
+Example:
+![Example Screenshot](https://github.com/MycroftAI/chatter/blob/dev/example.png?raw=true "Example Screenshot")
+
 ## Installation - Mycroft
 First you need to decide if you are going to use SSL for this bot or not.  If just for testing you can not setup SSL/WSS.  The different steps are listed below.
 
