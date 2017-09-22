@@ -7,7 +7,7 @@ A demo version of this bot can be seen in the Mattermost community for MycroftAI
 
 Still a work in progress
 
-## Installation
+## Installation - Mycroft
 First you need to decide if you are going to use SSL for this bot or not.  If just for testing you can not setup SSL/WSS.  The different steps are listed below.
 
 **Please Note:** For our setup we are using docker to just make it easier since we are only dealing with text you can still use a normal mycroft instance but then you will have to setup your own type of proxy, etc.
@@ -29,6 +29,11 @@ Just replace the directory_on_local_machine with where you want the container ma
 
 `docker run -itd -p 8181:8181 -v directory_on_local_machine:/root/.mycroft mycroftai/docker-mycroft:unstable` - For unstable
 
+
+## Installation Errbot
+We will be using docker for Errbot as well and have a dockerfile setup at https://github.com/MycroftAI/docker-errbot
+
+More info soon on setting this part up...
 
 ## Setup
 Now you have a mycroft instance setup and we need to configure how we want to interact with our instance.
