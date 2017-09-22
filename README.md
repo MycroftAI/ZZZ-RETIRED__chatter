@@ -21,3 +21,17 @@ Just replace the directory_on_local_machine with where you want the container ma
 
 `docker run -itd -p 8181:8181 -v directory_on_local_machine:/root/.mycroft mycroftai/docker-mycroft`
 
+## Setup
+Now you have a mycroft instance setup and we need to configure how we want to interact with our instance.
+
+### Web Client
+TBD
+
+### Slack
+We will use the errbot backend framework and a mycroft plugin that will interact with the instance.
+
+### Mattermost
+We will use the errbot backend framework and a mycroft plugin that will interact with the instance.
+
+### Discord
+We will use the errbot backend framework and a mycroft plugin that will interact with the instance.
